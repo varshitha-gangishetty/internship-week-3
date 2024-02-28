@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+.price {
+    color: #f00;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-info img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.cta {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    background-color: #555;
+    transition: background-color 0.3s;
+}
